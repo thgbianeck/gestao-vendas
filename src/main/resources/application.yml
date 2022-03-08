@@ -1,0 +1,13 @@
+############# APPLICATION PORT ####################
+server:
+  port: 8080
+
+############# MYSQL CONFIGURATION ####################
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost/gvendas_db?useTimezone=true&serverTimezone=America/Sao_Paulo
+    username: gvendas
+    password: gvendas
